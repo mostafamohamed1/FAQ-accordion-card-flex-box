@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="This is my Solution for Faq Accordion Challenge On frontend Mentor"
+    />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | FAQ Accordion Card</title>
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Main Style -->
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <main class="card">
+      <h1>FAQ Accordion Card</h1>
+      <img src="./images/illustration-box-desktop.svg" alt="box" class="box" />
+
+      <div class="card-hero">
+        <picture>
+          <source
+            srcset="./images/illustration-woman-online-desktop.svg"
+            media="(min-width: 800px)"
+          />
+          <img
+            src="./images/illustration-woman-online-mobile.svg"
+            alt="women"
+            class="hero-img"
+          />
+        </picture>
+      </div>
+      <div class="card-content">
+        <h2>faq</h2>
+        <ul class="faq-list">
+          <li class="faq-item">
+            <div class="item-head">
+              <h3 class="question">How many team members can I invite?</h3>
+              <img
+                src="./images/icon-arrow-down.svg"
+                alt="arrow"
+                class="arrow"
+              />
+            </div>
+            <p class="item-content">
+              You can invite up to 2 additional users on the Free plan. There is
+              no limit on team members for the Premium plan.
+            </p>
+          </li>
+          <li class="faq-item active">
+            <div class="item-head">
+              <h3 class="question">What is the maximum file upload size?</h3>
+              <img
+                src="./images/icon-arrow-down.svg"
+                alt="arrow"
+                class="arrow"
+              />
+            </div>
+            <p class="item-content">
+              No more than 2GB. All files in your account must fit your allotted
+              storage space.
+            </p>
+          </li>
+          <li class="faq-item">
+            <div class="item-head">
+              <h3 class="question">How do I reset my password?</h3>
+              <img
+                src="./images/icon-arrow-down.svg"
+                alt="arrow"
+                class="arrow"
+              />
+            </div>
+            <p class="item-content">
+              Click “Forgot password” from the login page or “Change password”
+              from your profile page. A reset link will be emailed to you
+            </p>
+          </li>
+          <li class="faq-item">
+            <div class="item-head">
+              <h3 class="question">Can I cancel my subscription?</h3>
+              <img
+                src="./images/icon-arrow-down.svg"
+                alt="arrow"
+                class="arrow"
+              />
+            </div>
+            <p class="item-content">
+              Yes! Send us a message and we’ll process your request no questions
+              asked.
+            </p>
+          </li>
+          <li class="faq-item">
+            <div class="item-head">
+              <h3 class="question">Do you provide additional support?</h3>
+              <img
+                src="./images/icon-arrow-down.svg"
+                alt="arrow"
+                class="arrow"
+              />
+            </div>
+            <p class="item-content">
+              Chat and email support is available 24/7. Phone lines are open
+              during normal business hours.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </main>
+
+    <script src="./js/app.js"></script>
+  </body>
+</html>
