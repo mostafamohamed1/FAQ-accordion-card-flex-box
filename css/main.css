@@ -114,6 +114,7 @@ ul {
   .card {
     --width: 76.66rem;
     flex: 0 0 var(--width);
+    max-width: var(--width);
     height: 42.416rem;
     flex-direction: row;
     position: relative;
